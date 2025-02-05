@@ -33,9 +33,9 @@ const collectionMint = generateSigner(umi);
 
 const transaction = createNft(umi, {
     mint: collectionMint,
-    name: "My NFT Collection",
-    symbol: "NFT",
-    uri: "https://arweave.net/abc123",
+    name: "Mega Memes Collection",
+    symbol: "MMC",
+    uri: "https://raw.githubusercontent.com/connorstake/solana-projects/main/new-nft/metadata.json",
     sellerFeeBasisPoints: percentAmount(0),
     isCollection: true
 });
